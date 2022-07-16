@@ -11,7 +11,7 @@ Database
 
 Clone the repository
 
-    git clone git@github.com:rizkymfz/TECHNICAL-TEST-MEKARI-SAMPOERNA.git
+    git clone https://github.com/rizkymfz/TECHNICAL-TEST-MEKARI-SAMPOERNA.git
 
 Switch to the repo folder
 
@@ -37,7 +37,7 @@ You can now access the server at http://localhost:8000
 
 **TL;DR command list**
 
-    git clone git@github.com:rizkymfz/TECHNICAL-TEST-MEKARI-SAMPOERNA.git
+    git clone https://github.com/rizkymfz/TECHNICAL-TEST-MEKARI-SAMPOERNA.git
     cd laravel-realworld-example-app
     composer install
     cp .env.example .env
