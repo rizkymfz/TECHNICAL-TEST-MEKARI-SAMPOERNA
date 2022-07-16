@@ -6,8 +6,9 @@ documentation URL
     https://documenter.getpostman.com/view/6424687/UzQuQRbg
 
 ## Installation (Frontend/API)
-Database
-    import file technical_test_mekari_sampoerna.sql to database
+
+Database : 
+    please import file technical_test_mekari_sampoerna.sql to database in folder **database/technical_test_mekari_sampoerna.sql**
 
 Clone the repository
 
