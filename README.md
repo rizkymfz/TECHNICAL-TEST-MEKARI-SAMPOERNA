@@ -22,6 +22,13 @@ Install all the dependencies using composer
 
     composer install
 
+Start the local development server
+
+    php artisan serve
+
+You can now access the server at http://localhost:8000
+
+**IF .env not exist**
 Copy the example env file and make the required configuration changes in the .env file (if .env not exist)
 
     cp .env.example .env
@@ -29,12 +36,6 @@ Copy the example env file and make the required configuration changes in the .en
 Generate a new application key (if .env not exist)
 
     php artisan key:generate
-
-Start the local development server
-
-    php artisan serve
-
-You can now access the server at http://localhost:8000
 
 **TL;DR command list**
 
@@ -53,3 +54,5 @@ Run the laravel development server
 The api can now be accessed at
 
     http://localhost:8000/api
+    
+ 
