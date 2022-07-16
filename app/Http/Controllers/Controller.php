@@ -129,29 +129,4 @@ class Controller extends BaseController
 
         return $wallet_from;
     }
-
-    public function sendNotification($data)
-    {
-        
-        try {
-            $client = new Client(['headers' => [
-                'Accept' => 'application/json',
-                'api-key' => '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',
-                'content-type' => 'application/json',
-            ]]);
-            $sender["name"] = "Tujju Techinal Test - Rizky Maulana Fauzi";
-            $sender["email"] = "rizkywarhole@gmail.com";
-
-            $data["subject"] = "Notification";
-            $data["htmlContent"] = view('email', $data)->render();
-
-            $data["sender"] = $sender;
-            $data["to"][0]["name"] = $data['name'];
-            $data["to"][0]["email"] = $data['email'];
-            $res = $client->post('https://api.sendinblue.com/v3/smtp/email', ["json" => $data]);
-            \Log::info(json_encode($data));
-        } catch (\Throwable $th) {
-            \Log::info($th);
-        }
-    }
 }
