@@ -29,11 +29,11 @@ Start the local development server
 You can now access the server at http://localhost:8000
 
 **IF .env not exist**
-Copy the example env file and make the required configuration changes in the .env file (if .env not exist)
+Copy the example env file and make the required configuration changes in the .env file
 
     cp .env.example .env
 
-Generate a new application key (if .env not exist)
+Generate a new application key
 
     php artisan key:generate
 
